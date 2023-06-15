@@ -1,4 +1,3 @@
-
 :root {
 
     --iris-color: #4D5AE5;
@@ -18,7 +17,7 @@
 
 /**
   |============================
-  | Custom style
+  | Custom Studio style
   |============================
 */
 
@@ -60,9 +59,7 @@ a {
 
 .header {}
 
-.header-nav {}
-
-.header-nav-link {
+.header-link {
 
     font-family: 'Raleway';
     font-weight: 800;
@@ -71,29 +68,52 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--navi-blue-color);
+
+
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+    color: #404BBF;
+}
+
+.header-nav-link:active {
+    /* OCEAN */
+    color: #404BBF;
+    text-decoration: underline;
 }
 
 .header-nav-logo {
+
     color: var(--iris-color);
 }
 
 .header-list {
 
     font-weight: 500;
+    font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: var(--navi-blue-color);
+
+    /* NAVY BLUE */
+    color: #2E2F42;
 }
 
 .header-address {}
 
-.header-address-mail,
-.header-address-tel {
+.header-address-link {
 
     font-style: normal;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.header-address-link:active,
+.header-address-link:hover,
+.header-address-link:focus {
+    /* OCEAN */
+    color: #404BBF;
 }
 
 /**
@@ -127,7 +147,15 @@ a {
     line-height: 1.5;
     align-items: center;
     letter-spacing: 0.04em;
+    /* IRIS */
     color: #FFFFFF;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    /* OCEAN */
+    background: #404BBF;
+
 }
 
 /**
@@ -219,13 +247,13 @@ a {
 }
 
 .footer-link {
-        font-family: 'Raleway';
-            font-weight: 800;
-            font-size: 18px;
-            line-height: 1.16;
-            letter-spacing: 0.03em;
-            text-transform: uppercase;
-            color: #F4F4FD;
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
 }
 
 .footer-logo {
@@ -233,9 +261,70 @@ a {
 }
 
 .footer-item {
-        
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-            /* CLOUD */
-            color: #F4F4FD;
+
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    /* CLOUD */
+    color: #F4F4FD;
 }
+
+/**
+  |============================
+  | Portfolio style
+  |============================
+*/
+
+/* Buttons */
+
+.gallery-btn-list {
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    /* IRIS */
+    color: #4D5AE5;
+}
+
+.gallery-btn {
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+}
+
+.gallery-btn:hover,
+.gallery-btn:focus {
+    background: #404BBF;
+}
+
+/* Section Callery 1-3 photos */
+
+.gallery-pic-title {
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    /* NAVY BLUE */
+    color: #2E2F42;
+}
+
+.callery-pic-link:hover,
+.callery-pic-link:focus {
+    color: #404BBF;
+}
+
+.gallery-pic-item {
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    /* SLATE */
+    color: #434455;
+}
+
