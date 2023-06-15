@@ -12,6 +12,12 @@
     --gray-color: rgba(46, 47, 66, 0.7);
     --white-color: #FFFFFF;
     --dairy-color: #FCFCFC;
+    /**
+  |============================
+  | 
+  |============================
+*/
+
 
 }
 
@@ -64,7 +70,7 @@ a {
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.16;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--navi-blue-color);
@@ -74,12 +80,14 @@ a {
 
 .header-nav-link:hover,
 .header-nav-link:focus {
-    color: #404BBF;
+    color: var(--ocean-color);
+
 }
 
 .header-nav-link:active {
     /* OCEAN */
-    color: #404BBF;
+    color: var(--ocean-color);
+
     text-decoration: underline;
 }
 
@@ -91,12 +99,12 @@ a {
 .header-list {
 
     font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 
     /* NAVY BLUE */
-    color: #2E2F42;
+    color: var(--navi-blue-color);
+
 }
 
 .header-address {}
@@ -104,16 +112,18 @@ a {
 .header-address-link {
 
     font-style: normal;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--slate-color);
+
 }
 
 .header-address-link:active,
 .header-address-link:hover,
 .header-address-link:focus {
     /* OCEAN */
-    color: #404BBF;
+    color: var(--ocean-color);
+
 }
 
 /**
@@ -123,7 +133,8 @@ a {
 */
 
 .section-hero {
-    background: #2E2F42;
+    background: var(--navi-blue-color);
+
 }
 
 .section-hero-title {
@@ -134,11 +145,12 @@ a {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--white-color);
+    ;
 }
 
 .hero-btn {
-    background: #4D5AE5;
+    background: var(--iris-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
@@ -148,13 +160,15 @@ a {
     align-items: center;
     letter-spacing: 0.04em;
     /* IRIS */
-    color: #FFFFFF;
+    color: var(--white-color);
+    ;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
     /* OCEAN */
-    background: #404BBF;
+    background: var(--ocean-color);
+
 
 }
 
@@ -171,7 +185,8 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     /* NAVY BLUE */
-    color: #2E2F42;
+    color: var(--navi-blue-color);
+
 }
 
 .benefits-item {
@@ -179,7 +194,8 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     /* SLATE */
-    color: #434455;
+    color: var(--slate-color);
+
 }
 
 
@@ -202,7 +218,8 @@ a {
 
     /* NAVY BLUE */
 
-    color: #2E2F42;
+    color: var(--navi-blue-color);
+
 }
 
 
@@ -213,7 +230,8 @@ a {
 */
 
 .section-team {
-    background: #F4F4FD;
+    background: var(--cloud-color);
+
 }
 
 
@@ -224,7 +242,8 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     /* NAVY BLUE */
-    color: #2E2F42;
+    color: var(--navi-blue-color);
+
 }
 
 .team-item-member {
@@ -232,7 +251,8 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     /* SLATE */
-    color: #434455;
+    color: var(--slate-color);
+
 }
 
 /**
@@ -243,7 +263,8 @@ a {
 
 
 .section-footer {
-    background: #2E2F42;
+    background: var(--navi-blue-color);
+
 }
 
 .footer-link {
@@ -253,7 +274,8 @@ a {
     line-height: 1.16;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #F4F4FD;
+    color: var(--cloud-color);
+
 }
 
 .footer-logo {
@@ -265,7 +287,8 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     /* CLOUD */
-    color: #F4F4FD;
+    color: var(--cloud-color);
+
 }
 
 /**
@@ -279,25 +302,27 @@ a {
 .gallery-btn-list {
 
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.5;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
     /* IRIS */
-    color: #4D5AE5;
+    color: var(--iris-color);
 }
 
 .gallery-btn {
-    background: #F4F4FD;
-    border: 1px solid #E7E9FC;
+    background: var(--cloud-color);
+
+    border: 1px solid var(--cornflower-color);
+
     border-radius: 4px;
 }
 
 .gallery-btn:hover,
 .gallery-btn:focus {
-    background: #404BBF;
+    background: var(--ocean-color);
+
 }
 
 /* Section Callery 1-3 photos */
@@ -306,25 +331,27 @@ a {
 
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     /* NAVY BLUE */
-    color: #2E2F42;
+    color: var(--navi-blue-color);
+
 }
 
 .callery-pic-link:hover,
 .callery-pic-link:focus {
-    color: #404BBF;
+    color: var(--ocean-color);
+
 }
 
 .gallery-pic-item {
-font-family: 'Roboto';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
 
     line-height: 1.5;
     letter-spacing: 0.02em;
     /* SLATE */
-    color: #434455;
-}
+    color: var(--slate-color);
 
+}
