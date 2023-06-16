@@ -32,7 +32,8 @@ body {
 
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    /* color: var(--slate-color); */
+    color: #434455;
+    background-color: #FFFFFF;
 
     /* font-family: 'Quicksand', sans-serif;
         font-family: 'Raleway', sans-serif; */
@@ -229,8 +230,17 @@ a {
   |============================
 */
 
+.section-team {
+    background-color: #F4F4FD;
+}
+
+.list {
+    background-color: #FFFFFF
+}
 .team-list{
     background: var(--cloud-color);
+    
+    
 
 }
 
