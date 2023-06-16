@@ -344,19 +344,24 @@ a {
 
 .gallery-btn {
     background: var(--cloud-color);
+    color: #4d5ae5;
 
-    border: 1px solid var(--cornflower-color);
-
+    font-weight: 500;
     border-radius: 4px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    
 }
 
 .gallery-btn:hover,
 .gallery-btn:focus {
-    background: var(--ocean-color);
+    background: #404BBF;
+    color: #FFFFFF;
 
 }
 
-/* Section Callery 1-3 photos */
+/* Section Callery 1-9 photos */
 
 .gallery-pic-title {
 
