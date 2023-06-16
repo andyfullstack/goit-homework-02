@@ -64,17 +64,36 @@ a {
   |============================
 */
 
-.header {}
+/* Navigation */
+
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+
+.header-nav-link {
+
+
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    /* NAVY BLUE */
+    color: #2E2F42;
+}
 
 .header-link {
 
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
+    ;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--navi-blue-color);
+    text-decoration: none;
+    color: #4d5ae5;
 
 
 }
@@ -94,7 +113,7 @@ a {
 
 .header-nav-logo {
 
-    color: var(--iris-color);
+    color: #2e2f42;
 }
 
 .header-list {
@@ -237,9 +256,10 @@ a {
 .list {
     /* background-color: #FFFFFF */
 }
-.team-list{
+
+.team-list {
     background: #FFFFFF;
-    
+
 }
 
 
@@ -276,18 +296,19 @@ a {
 }
 
 .footer-link {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--cloud-color);
+    color: #4d5ae5;
 
 }
 
 .footer-logo {
-    color: var(--iris-color);
+
+    color: #f4f4fd;
 }
 
 .footer-item {
