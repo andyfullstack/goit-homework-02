@@ -32,7 +32,7 @@ body {
 
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    color: var(--slate-color);
+    /* color: var(--slate-color); */
 
     /* font-family: 'Quicksand', sans-serif;
         font-family: 'Raleway', sans-serif; */
@@ -229,7 +229,7 @@ a {
   |============================
 */
 
-.section-team {
+.team-list{
     background: var(--cloud-color);
 
 }
